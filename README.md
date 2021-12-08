@@ -21,13 +21,6 @@ We employed two ensemble methods, random forest and ADA boost. Random forest was
 GridSearch Optimization/Custom Model
 Gridsearch was used in order to tune our hyperparameters of each model. An example of how we used gridsearch is attached below. 
 
-Using these results, we then ran each model again with the optimized hyperparameters and cross validation. The results of each optimized model are listed below:
-Error Rate lin test: 0.14444812142493613
-Error Rate ADA test: 0.1681775957924223
-Error Rate RF test: 0.11544295064383832
-Error Rate SVR: 0.5784808984053559
-Error Rate knn: 0.13822350215615412
-
 
 Conclusion:
 Essentially each of the 5 models that we tested had one primary goal: predicting the total sales for each brand as accurately as possible. Each model has a different way of achieving this prediction with varying results as can be seen. A 15% error rate means the model accurately predicted the total sales 85% of the time. That means our best performing models, knn and linear regression, can accurately predict total sales about 86% of the time. Cookies could leverage our model and results to predict total sales. Since Cookies is taking in new data monthly, they would only have to segment a new dataset for the month and brands they want to predict, then run the data with new brands through our model to predict new total sales for any given month. This type of machine learning and analytic work could be very valuable for the company to estimate their sales and please shareholders. With the growing cannabis industry in recent times, this project was aimed at helping Cookies expand into a greater piece of the cannabis market share. Through a detailed data science process involving cleaning data, merging/subsetting data, augmenting features, and building machine learning models, we have provided Cookies with the framework to predict their total sales as well as their competitors’ within the cannabis industry.
